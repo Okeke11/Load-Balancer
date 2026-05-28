@@ -3,9 +3,9 @@ const httpProxy = require('http-proxy');
 
 // 1. Stateful Tracking: Added the isAlive flag
 let servers = [
-    { target: 'http://localhost:3001', isAlive: true },
-    { target: 'http://localhost:3002', isAlive: true },
-    { target: 'http://localhost:3003', isAlive: true }
+    { target: 'http://localhost:4001', isAlive: true },
+    { target: 'http://localhost:4002', isAlive: true },
+    { target: 'http://localhost:4003', isAlive: true }
 ];
 
 const proxy = httpProxy.createProxyServer();
