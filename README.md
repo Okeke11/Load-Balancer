@@ -22,3 +22,15 @@ A lightweight, Layer 7 round-robin load balancer built with Node.js. This projec
 ├── server.js         # Mock Express backend to simulate API servers
 ├── package.json      # Project metadata and dependencies
 └── .gitignore        # Ignored files (node_modules, etc.)
+```
+## 🚀 Getting Started
+
+### 1. Prerequisites
+Ensure you have Node.js installed on your machine.
+
+### 2. Installation
+Clone the repository and install the required dependencies:
+
+```bash
+npm install
+```
