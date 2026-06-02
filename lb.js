@@ -67,7 +67,7 @@ const server = http.createServer((req, res) => {
     currentIndex = (currentIndex + 1) % aliveServers.length;
 });
 
-server.listen(8000, () => {
-    console.log('🚀 Smart Load Balancer running on port 8000');
+server.listen(9000, () => {
+    console.log('🚀 Smart Load Balancer running on port 9000');
     console.log('Starting background health checks...');
 });
